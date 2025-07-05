@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/logofinal.jpeg">
+    <title>Shahila's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add inside <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- For Pacifico -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!-- For Dancing Script -->
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="vanta-bg" style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:-1;"></div>
+  
+
+    <nav class="nav_bar">
+    <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Example for index.html -->
+<ul id="nav-list">
+    <li><a href="#" class="home"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="#about" class="about"><i class="fas fa-user"></i> About</a></li>
+    <li><a href="#education" class="Education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+    <li><a href="#projects" class="Projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+    <li><a href="#contact" class="contact"><i class="fas fa-envelope"></i> Contact me</a></li>
+</ul>
+</nav>
+
+    <div id="header">
+        <img src='./images/Shahilabismi.jpg' alt="Shahila Sulthana">
+
+        <div class="text-container">
+           <div class="hi">
+           <h3 class="gradient-cursive">Hello...I'm</h3>
+        </div>
+
+        <div class="name">
+          <h1>Shahila Sulthana</h1>
+          <span class="tagline typewriter" id="typewriter"></span>
+        </div>
+
+        <div class="deg">
+          <h3>B.Tech Artificial Intelligence and Data Science</h3>
+        </div>
+
+        <div class="desc">
+           <h4>@ Coimbatore Institute of Technology</h4>
+        </div>
+
+        <div class="resume-download">
+          <a href="./images/Shahila Sulthana_Resume.pdf" download class="resume-btn">
+          <i class="fas fa-download"></i> Download My Resume</a>
+        </div>
+        
+        </div>
+    </div>
+
+    
+
+<div class="aboutmyself" id="about">
+    <p class="about-text">
+        I am a passionate individual who loves exploring and driving towards new and emerging technologies.<br>
+        With a keen interest in innovation, I strive to create impactful solutions that bridge the gap between ideas and reality.
+    </p>
+    <span class="about-quote typewriter-quote" id="about-typewriter"></span>
+</div>
+
+    <div class="education-container" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline"></div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>B.Tech Artificial Intelligence & Data Science</h3>
+                <p>Coimbatore Institute of Technology | 2023 - 2027</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>HSC</h3>
+                <p>Maharishi Higher Secondary School | 2022 - 2023</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h3>SSLC</h3>
+                <p>Maharishi Higher Secondary School | 2020 - 2021</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="project_title" id="projects">
+        <h1>Projects</h1>
+    </div>
+    <!--Tiny Toes-->
+    <div class="project_1">
+        <div class="content-wrapper">
+            <div class="project_text">
+                <h1>TinyToes</h1>
+                <p>
+                    Tiny Toes is a smart parenting companion designed to support new parents every step of the way. 
+                    It features intelligent      baby cry detection that analyzes the reason behind your baby's cries, 
+                    while also offering tools for smart parenting — from booking pediatricians and receiving lifestyle 
+                    recommendations to tracking your child’s growth and development. 
+            </div>
+            <div class="img_1"></div>
+        </div>
+        <div class="ref_1"><a href="https://github.com/Shahilasulthana/TinyToes">Learn More </a>
+        </div>
+    </div>
+    <!--Tiny Toes-->
+
+    <div class="project_2">
+    <div class="content-wrapper">
+        <div class="left-section">
+            <div class="img_2"></div>
+            <div class="ref_2">
+                <a href="images/EmpowerHer Report.pdf" target="_blank">Learn More</a>
+            </div>
+        </div>
+        <div class="project_text">
+            <h1>Empower Her</h1>
+            <p>
+                We propose a real-time scream detection system using machine learning
+                to enhance safety. It analyzes audio input, detects distress sounds
+                with SVM and MLP models, and classifies urgency. Upon detecting a
+                scream, it automatically alerts the nearest police station via SMS
+                with the user’s location. The user-friendly Kivy-based interface
+                ensures accessibility on desktop and Android for quick emergency response.
+            </p>
+        </div>
+    </div>
+</div>
+
+    <!--Alco Guard-->
+    <div class="project_3">
+        <div class="content-wrapper">
+            <div class="project_text">
+                <h1>Alcoguard</h1>
+                <p>
+                    AlcoGuard is an Arduino-based alcohol detection and engine locking system
+                    designed to enhance road safety. It uses an alcohol sensor to detect
+                    intoxication levels in the driver’s breath. If alcohol is detected,
+                    the system automatically locks the vehicle's engine and sends the
+                    current location to the responsible authorities via SMS or call,
+                    ensuring timely intervention and preventing potential accidents.
+                </p>
+            </div>
+            <div class="img_3"></div>
+        </div>
+        <div class="ref_3"><a href="https://sites.google.com/view/alcoguard/home?authuser=0">Learn More </a>
+        </div>
+    </div>
+    <!--Alco Guard-->
+
+    <!--Similarity Detection-->
+<div class="project_9">
+    <div class="content-wrapper">
+        <div class="left-section">
+            <div class="img_9"></div>
+            <div class="ref_9">
+                <a href="https://github.com/PA-D3RPLA/cit-rpla-shahila">Learn More</a>
+            </div>
+        </div>
+        <div class="project_text">
+            <h1>Similarity Detection</h1>
+            <p>
+                This project detects similarity between final year student projects 
+                at Telkom University by analyzing titles and descriptions using 
+                semantic techniques. It calculates similarity scores, recommends
+                ways to improve uniqueness, and prevents students from repeating 
+                existing work. The system also assists in literature review 
+                analysis and enables faculty to detect potential plagiarism more efficiently.
+            </p>
+        </div>
+    </div>
+</div>
+<!--Similarity Detection-->
+
+
+
+    <!--Book Buddy-->
+    <div class="project_5">
+        <div class="content-wrapper">
+            <div class="project_text">
+                <h1>Book Buddy</h1>
+                <p>
+                    BookBuddy is a user-friendly book-sharing platform that connects readers, 
+                    book lovers, and knowledge seekers. Whether you want to lend, borrow, or simply
+                     discover new reads, BookBuddy makes it easy to share books within your community. 
+                     Built with simplicity and passion, it’s more than just a library — it’s your reading companion.
+                </p>
+            </div>
+            <div class="img_5"></div>
+        </div>
+        <div class="ref_5"><a href="https://github.com/Shahilasulthana/Book-Buddy/tree/main">Learn More </a>
+        </div>
+    </div>
+    <!--Book Buddy-->
+
+    <!--Educonnect-->
+    <div class="project_6">
+        <div class="content-wrapper">
+            <div class="left-section">
+                <div class="img_6"></div>
+                <div class="ref_6">
+                    <a href="https://github.com/Shahilasulthana/EduConnect">Learn More</a>
+                </div>
+            </div>
+            <div class="project_text">
+                <h1>Educonnect</h1>
+                <p>
+                    EduConnect is a holistic upskilling platform designed to bridge the educational gap for 
+                    students in rural and government schools. By connecting students with their seniors for 
+                    mentorship, integrating interactive virtual labs, streamlining attendance with smart 
+                    management systems, enabling donations for resources, and offering a teacher discussion 
+                    space — EduConnect empowers learning, collaboration, and growth from the ground up.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Educonnect-->
+
+    <!--Deepshield-->
+    <div class="project_7">
+        <div class="content-wrapper">
+            <div class="project_text">
+                <h1>Deepshield</h1>
+                <p>
+                    DeepShield is a smart Chrome extension designed to detect deepfake videos 
+                    in real time.Whether you're browsing social media or streaming online, DeepShield
+                     uses advanced AI to analyze video content and alert users to manipulated or 
+                     synthetic media — helping you  stay informed and protected in a world of digital deception.
+                </p>
+            </div>
+            <div class="img_7"></div>
+        </div>
+        <div class="ref_7"><a href="https://github.com/Shahilasulthana/Deepshield">Learn More </a>
+        </div>
+    </div> 
+    <!--Deepsheild-->
+
+
+        <!--8 - Mediverse-->
+        <div class="project_8">
+            <div class="content-wrapper">
+                <div class="left-section">
+                    <div class="img_8"></div>
+                    <div class="ref_8">
+                        <a href="https://github.com/Shahilasulthana/Mediverse">Learn More</a>
+                    </div>
+                </div>
+                <div class="project_text">
+                    <h1>Mediverse</h1>
+                    <p>
+                        Mediverse is an all-in-one digital healthcare platform that brings the hospital to your fingertips. 
+                        From ordering medicines and booking doctor appointments to tracking your health and receiving 
+                        personalized lifestyle recommendations, Mediverse offers a seamless, patient-first experience. 
+                        Think of it as your personal mini hospital — smart, accessible, and always ready to care.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Mediverse-->
+
+        <!--8 - Mediverse-->
+
+        <!--Mediverse-->
+
+<!--Languages known or skill set-->
+
+<section class="skillset-section" >
+  <h2>Things I Know</h2>
+
+  <div class="skillset-links">
+    <div class="skill-item">
+      <img src="images/c.png" alt="C">
+      <span>C Programming</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/python.png" alt="Python">
+      <span>Python</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/java.png" alt="Java">
+      <span>Java</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/html.webp" alt="HTML">
+      <span>HTML</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/css.png" alt="CSS">
+      <span>CSS</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/bs.png" alt="Bootstrap">
+      <span>Bootstrap</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/js.png" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/jq.png" alt="jQuery">
+      <span>jQuery</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/njs.png" alt="NodeJS">
+      <span>NodeJS</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/ejs.png" alt="ExpressJS">
+      <span>ExpressJS</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/sql.png" alt="MySQL">
+      <span>MySQL</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/mongo.png" alt="MongoDB">
+      <span>MongoDB</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/ML.webp" alt="Machine Learning">
+      <span>Machine Learning</span>
+    </div>
+
+    <div class="skill-item">
+      <img src="images/DL.jpg" alt="Deep Learning">
+      <span>Deep Learning</span>
+    </div>
+
+    
+  </div>
+</section>
+
+
+<!-- ...existing code... -->
+
+
+  
+<section class="roles" >
+    <h2>Roles & Responsibilities</h2>
+
+<div class="response">
+  <div class="role-card">
+    <h3>Treasurer <span>- Women Empowerment Cell</span></h3>
+    <p>Coimbatore Institute of Technology (June 2024 – May 2025)</p>
+  </div>
+
+  <div class="role-card">
+    <h3>Member <span>- Association of AI & DS</span></h3>
+    <p>Coimbatore Institute of Technology (June 2024 – April 2025)</p>
+  </div>
+
+  <div class="role-card">
+    <h3>Student Co-ordinator <span>- Institute of Engineers</span></h3>
+    <p>Coimbatore Institute of Technology (June 2024 – Present)</p>
+  </div>
+
+  <div class="role-card">
+    <h3>Research Intern <span>- Telkom University</span></h3>
+    <p>Telkom University, Bandung, Indonesia (May 2025 – June 2025)</p>
+  </div>
+</div>
+</section>
+
+
+<section class="achievements-section" id="achievements">
+  <h2 class="achievements-title">Achievements</h2>
+  <div class="achievements-roadmap">
+    <!-- Example Achievement Point -->
+  <div class="achievement-point">
+  <div class="achievement-dot"></div>
+  <div class="achievement-content">
+    <h3>Winner - Ideathon</h3>
+    <span class="achievement-date">April 2024</span>
+    <p>Secured 1st place in an Intercollegiate ideathon @ Coimbatore Institute of Technology.</p>
+    <img 
+      src="images/idea.jpg" 
+      alt="Ideathon Certificate" 
+      class="achievement-certificate-img"
+      style="margin-top:12px; max-width:260px; border-radius:10px; box-shadow:0 0 16px #00e1ff55, 0 0 8px #ff00ff55;"
+    >
+  </div>
+</div>
+    <!-- Repeat for each achievement -->
+    
+    <div class="achievement-point">
+      <div class="achievement-dot"></div>
+      <div class="achievement-content">
+        <h3>Runner up - Perpetual Fest</h3>
+        <span class="achievement-date">May 2024</span>
+        <p>Secured 2nd position @ Perpetual Fest - A project expo conducted by the Department of Artificial Intelligence & Data Science @ Coimbatore Institute of Technology.</p>
+        <img 
+      src="images/PF.jpg" 
+      alt="Perpetual Fest Certificate" 
+      class="achievement-certificate-img"
+      style="margin-top:12px; max-width:260px; border-radius:10px; box-shadow:0 0 16px #00e1ff55, 0 0 8px #ff00ff55;"
+    >
+      </div>
+    </div>
+
+    <div class="achievement-point">
+      <div class="achievement-dot"></div>
+      <div class="achievement-content">
+        <h3>Winner - Thiran 2025</h3>
+        <span class="achievement-date">February 2025</span>
+        <p>Secured 1st place in an project expo held @ Sri Eshwar College of Engineering,Coimbatore.</p>
+       <img 
+      src="images/thiranprice.jpg" 
+      alt="Thiran Certificate" 
+      class="achievement-certificate-img"
+      style="margin-top:12px; max-width:260px; border-radius:10px; box-shadow:0 0 16px #00e1ff55, 0 0 8px #ff00ff55;"
+    >
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+
+  <div class="contact-links">
+    <div class="contact-item">
+      <img src="images/Linked.webp" alt="LinkedIn">
+      <a href="https://www.linkedin.com/in/shahila-sulthana-0b3b662b3/" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/github.png" alt="GitHub">
+      <a href="https://github.com/Shahilasulthana" target="_blank">GitHub</a>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/leetcode.png" alt="LeetCode">
+      <a href="https://leetcode.com/u/shahilasulthana/" target="_blank">LeetCode</a>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/hackerrank.png" alt="HackerRank">
+      <a href="https://www.hackerrank.com/profile/shahilasulthana" target="_blank">HackerRank</a>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/med.png" alt="Medium">
+      <a href="https://medium.com/@shahilasulthana" target="_blank">Medium</a>
+    </div>
+  </div>
+</section>
+
+
+<footer class="custom-footer">
+  <div class="footer-content">
+    <p class="footer-copy">© 2025 Shahila Sulthana</p>
+    <div class="footer-logo">
+      <img src="images/logofinal.jpeg" alt="Logo" class="footer-logo-img">
+      <span class="footer-title">Shahila's Portfolio</span>
+    </div>
+    <ul class="footer-nav">
+      <li><a href="#" class="footer-link"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about" class="footer-link"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#education" class="footer-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+      <li><a href="#projects" class="footer-link"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="#contact" class="footer-link"><i class="fas fa-envelope"></i> Contact Me</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  </div>
+</section>
+
+
+<script>
+  const track = document.querySelector('.achievements-track');
+  const cards = document.querySelectorAll('.achievement-card');
+  let current = 0;
+  const total = cards.length;
+
+  function showSlide(idx) {
+    track.style.transform = `translateX(-${idx * 100}%)`;
+  }
+
+  setInterval(() => {
+    current = (current + 1) % total;
+    showSlide(current);
+  }, 1000);
+</script>
+
+<script>
+  // Hamburger menu toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+
+  // Optional: Close menu when a link is clicked (for better UX)
+  document.querySelectorAll('#nav-list a').forEach(link => {
+    link.addEventListener('click', () => {
+      navList.classList.remove('show');
+    });
+  });
+
+  // ...existing achievements slider code...
+  const track = document.querySelector('.achievements-track');
+  const cards = document.querySelectorAll('.achievement-card');
+  let current = 0;
+  const total = cards.length;
+
+  function showSlide(idx) {
+    track.style.transform = `translateX(-${idx * 100}%)`;
+  }
+
+  setInterval(() => {
+    current = (current + 1) % total;
+    showSlide(current);
+  }, 1000);
+</script>
+
+            
+
+<script>
+const typewriterTexts = [
+    "Frontend lover | Data science explorer | Problem solver"
+];
+let twIndex = 0, charIndex = 0, isDeleting = false;
+const twElem = document.getElementById('typewriter');
+
+function typeWriter() {
+    const current = typewriterTexts[twIndex];
+    if (!isDeleting) {
+        twElem.textContent = current.substring(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === current.length) {
+            setTimeout(() => { isDeleting = true; typeWriter(); }, 1200);
+            return;
+        }
+    } else {
+        twElem.textContent = current.substring(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+            isDeleting = false;
+        }
+    }
+    setTimeout(typeWriter, isDeleting ? 40 : 80);
+}
+typeWriter();
+</script>
+
+<script>
+// Slide-in effect for achievements roadmap
+document.querySelectorAll('.achievement-point').forEach(point => {
+  point.addEventListener('mouseenter', () => {
+    point.classList.add('active');
+  });
+  point.addEventListener('mouseleave', () => {
+    point.classList.remove('active');
+  });
+  // For touch devices: activate on touch
+  point.addEventListener('touchstart', () => {
+    point.classList.add('active');
+  });
+  point.addEventListener('touchend', () => {
+    point.classList.remove('active');
+  });
+});
+</script>
+
+<script>
+const aboutQuote = '"Stay hungry, stay foolish." — Steve Jobs';
+const aboutTypeElem = document.getElementById('about-typewriter');
+let aboutChar = 0;
+function aboutTypeWriter() {
+    if (aboutChar <= aboutQuote.length) {
+        aboutTypeElem.textContent = aboutQuote.substring(0, aboutChar);
+        aboutChar++;
+        setTimeout(aboutTypeWriter, 60);
+    }
+}
+aboutTypeWriter();
+</script>
+
+
+
+        
+<script src="three.min.js"></script>
+<script src="vanta.dots.js"></script>
+<script>
+VANTA.DOTS({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6020ff,
+  color2: 0x91de,
+  backgroundColor: 0x0,
+  showLines: false
+})
+</script>
+
+</body>
+
+</html>
